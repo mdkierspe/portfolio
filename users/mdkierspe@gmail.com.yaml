@@ -2,3 +2,7 @@ name: Michael
 super: true
 id: 1a7feb4e-4711-4cef-8dac-f83e65a631bb
 password_hash: $2y$12$dSnaLFW/ds0Gb3eaMx3pxuU2VXOKhHw2.0ceNLm1KXbfC8IEuU1tS
+preferences:
+  collections:
+    portfolio_items:
+      after_save: continue_editing

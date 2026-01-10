@@ -1,0 +1,52 @@
+title: 'Portfolio Item'
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: screenshot
+            field:
+              max_files: 1
+              min_files: 1
+              mode: grid
+              container: assets
+              type: assets
+              display: Screenshot
+              sortable: false
+              validate:
+                - required
+          -
+            handle: site_url
+            field:
+              input_type: url
+              type: text
+              display: 'Site URL'
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - portfolio_items
+              max_items: 1
+              listable: false
+              localizable: true

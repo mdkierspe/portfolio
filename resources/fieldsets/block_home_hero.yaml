@@ -1,0 +1,22 @@
+title: 'Block - Home Hero'
+fields:
+  -
+    handle: heading
+    field:
+      type: text
+      display: Heading
+      validate:
+        - required
+  -
+    handle: text_area
+    field:
+      type: textarea
+      display: 'Text Area'
+  -
+    handle: image
+    field:
+      max_files: 1
+      mode: grid
+      container: assets
+      type: assets
+      display: Image

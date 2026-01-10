@@ -1,0 +1,32 @@
+title: 'Block - Icons'
+fields:
+  -
+    handle: icon_groups
+    field:
+      mode: stacked
+      type: grid
+      display: 'Icon Groups'
+      fields:
+        -
+          handle: group_label
+          field:
+            type: text
+            display: 'Group Label'
+        -
+          handle: icons
+          field:
+            type: grid
+            display: Icons
+            mode: stacked
+            fields:
+              -
+                handle: devicon_class
+                field:
+                  type: text
+                  display: 'Devicon Class'
+              -
+                handle: icon_link
+                field:
+                  input_type: url
+                  type: text
+                  display: 'Icon Link'

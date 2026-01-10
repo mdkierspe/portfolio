@@ -1,0 +1,46 @@
+title: 'Default Page'
+fields:
+  -
+    handle: page_content
+    field:
+      remove_empty_nodes: true
+      type: bard
+      display: 'Page Content'
+      sortable: false
+      buttons:
+        - h2
+        - h3
+        - bold
+        - italic
+        - unorderedlist
+        - orderedlist
+        - removeformat
+        - quote
+        - anchor
+        - image
+        - table
+        - underline
+        - alignleft
+        - aligncenter
+        - alignright
+        - alignjustify
+      always_show_set_button: true
+      collapse: accordion
+      sets:
+        main_blocks:
+          display: 'Main Blocks'
+          sets:
+            home_hero:
+              display: 'Home Hero'
+              icon: favorite-star
+              fields:
+                -
+                  import: block_home_hero
+            portfolio_grid:
+              display: 'Portfolio Grid'
+              fields: {  }
+            icons:
+              display: Icons
+              fields:
+                -
+                  import: block_icons
