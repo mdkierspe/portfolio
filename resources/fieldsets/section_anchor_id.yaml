@@ -1,0 +1,7 @@
+title: 'Section Anchor ID'
+fields:
+  -
+    handle: section_id
+    field:
+      type: text
+      display: 'Section ID'

@@ -25,6 +25,14 @@ tabs:
               validate:
                 - required
           -
+            handle: poster_image
+            field:
+              max_files: 1
+              mode: grid
+              container: assets
+              type: assets
+              display: 'Poster Image'
+          -
             handle: site_url
             field:
               input_type: url

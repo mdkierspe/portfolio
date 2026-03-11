@@ -28,3 +28,6 @@ fields:
       type: bard
       display: Content
       save_html: true
+  -
+    handle: section_id
+    field: section_anchor_id.section_id

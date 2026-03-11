@@ -9,9 +9,5 @@ tree:
     url: '#portfolio'
   -
     id: 616672ca-bf28-4452-ab0e-88c024a96c48
-    title: 'Tech I Use'
-    url: '#tech-i-use'
-  -
-    id: 3ce7255f-7d9c-4e75-8d1d-60eb376c83b3
-    title: Testimonials
-    url: '#testimonials'
+    title: Skillset
+    url: '#skillset'

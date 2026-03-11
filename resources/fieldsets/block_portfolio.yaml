@@ -1,6 +1,9 @@
 title: 'Block - Portfolio'
 fields:
   -
+    handle: section_id
+    field: block_icons.section_id
+  -
     handle: heading
     field:
       type: text

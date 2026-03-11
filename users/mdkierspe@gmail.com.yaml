@@ -5,6 +5,6 @@ password_hash: $2y$12$dSnaLFW/ds0Gb3eaMx3pxuU2VXOKhHw2.0ceNLm1KXbfC8IEuU1tS
 preferences:
   collections:
     portfolio_items:
-      after_save: continue_editing
+      after_save: create_another
     pages:
       after_save: continue_editing

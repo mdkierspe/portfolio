@@ -1,4 +1,4 @@
-import Alpine from 'alpinejs';
+import { Livewire, Alpine } from '../../vendor/livewire/livewire/dist/livewire.esm';
 
-window.Apline = Alpine;
-Alpine.start();
+window.Alpine = Alpine;
+Livewire.start();
