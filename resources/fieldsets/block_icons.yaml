@@ -1,6 +1,16 @@
 title: 'Block - Icons'
 fields:
   -
+    handle: heading
+    field:
+      type: text
+      display: Heading
+  -
+    handle: textarea
+    field:
+      type: textarea
+      display: Textarea
+  -
     handle: icon_groups
     field:
       mode: stacked

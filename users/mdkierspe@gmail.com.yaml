@@ -6,3 +6,5 @@ preferences:
   collections:
     portfolio_items:
       after_save: continue_editing
+    pages:
+      after_save: continue_editing

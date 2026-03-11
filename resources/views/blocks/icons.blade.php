@@ -1,8 +1,17 @@
 <section>
     <div class="container" x-data="{activeGroup:'{{ $icon_groups[0]->group_label }}'}">
-        <div class="group-labels">
+        <div class="max-w-3xl mx-auto text-center mb-12">
+            @if($heading)
+                <h2>{{ $heading }}</h2>
+            @endif
+            @if($textarea)
+                <p>{{ $textarea }}</p>
+            @endif
+        </div>
+
+        <div class="flex items-center justify-center gap-5">
             @foreach ($icon_groups as $icon_group )
-                <h3 x-on:click="activeGroup = '{{ $icon_group->group_label }}'">{{ $icon_group->group_label }}</h3>
+                <h3 :class="activeGroup === '{{ $icon_group->group_label }}' ? 'underline cursor-pointer' : 'cursor-pointer'"  x-on:click="activeGroup = '{{ $icon_group->group_label }}'">{{ $icon_group->group_label }}</h3>
             @endforeach
         </div>
         @foreach ($icon_groups as $icon_group )

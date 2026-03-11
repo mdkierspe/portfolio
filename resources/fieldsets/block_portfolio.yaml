@@ -1,2 +1,12 @@
 title: 'Block - Portfolio'
-fields: {  }
+fields:
+  -
+    handle: heading
+    field:
+      type: text
+      display: Heading
+  -
+    handle: textarea
+    field:
+      type: textarea
+      display: Textarea

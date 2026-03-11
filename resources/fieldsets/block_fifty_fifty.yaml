@@ -1,0 +1,30 @@
+title: 'Block - Fifty-Fifty'
+fields:
+  -
+    handle: image
+    field:
+      max_files: 1
+      mode: grid
+      container: assets
+      type: assets
+      display: Image
+  -
+    handle: content
+    field:
+      buttons:
+        - h2
+        - h3
+        - bold
+        - italic
+        - unorderedlist
+        - orderedlist
+        - removeformat
+        - quote
+        - anchor
+        - image
+        - table
+        - h4
+      remove_empty_nodes: false
+      type: bard
+      display: Content
+      save_html: true

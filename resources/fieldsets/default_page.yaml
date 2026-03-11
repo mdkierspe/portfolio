@@ -38,9 +38,17 @@ fields:
                   import: block_home_hero
             portfolio_grid:
               display: 'Portfolio Grid'
-              fields: {  }
+              fields:
+                -
+                  import: block_portfolio
             icons:
               display: Icons
               fields:
                 -
                   import: block_icons
+            fifty_fifty:
+              display: Fifty-Fifty
+              icon: layout-two-columns
+              fields:
+                -
+                  import: block_fifty_fifty

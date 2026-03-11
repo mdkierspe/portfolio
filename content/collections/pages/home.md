@@ -5,7 +5,7 @@ title: Home
 template: default
 author: 1a7feb4e-4711-4cef-8dac-f83e65a631bb
 updated_by: 1a7feb4e-4711-4cef-8dac-f83e65a631bb
-updated_at: 1764193443
+updated_at: 1768083021
 page_content:
   -
     type: set
@@ -19,9 +19,19 @@ page_content:
   -
     type: set
     attrs:
-      id: migfqg7o
+      id: mk8tnt3g
+      values:
+        type: fifty_fifty
+        image: 567a0274.jpg
+        content: '<h2>Lorem Ipsum</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quam sed odit ducimus quas a, minus consectetur inventore fugit! Aperiam maxime cumque iusto at delectus fugiat, ipsam assumenda iure dolorum totam repellendus numquam omnis ducimus excepturi autem nulla quae necessitatibus.</p>'
+  -
+    type: set
+    attrs:
+      id: mk8uv8dr
       values:
         type: portfolio_grid
+        heading: Portfolio
+        textarea: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus consectetur itaque esse blanditiis quos asperiores facere quam inventore ipsa cumque delectus similique corporis accusamus expedita porro, natus ea? Cupiditate, amet.'
   -
     type: set
     attrs:
@@ -84,4 +94,6 @@ page_content:
                 devicon_class: devicon-sqlite-plain-wordmark
               -
                 id: migj7md6
+        heading: 'My Skillset'
+        textarea: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus consectetur itaque esse blanditiis quos asperiores facere quam inventore ipsa cumque delectus similique corporis accusamus expedita porro, natus ea? Cupiditate, amet.'
 ---
