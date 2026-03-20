@@ -12,6 +12,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=close,menu" />
+        <link rel="icon" type="image/png" href="/favicons/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/svg+xml" href="/favicons/favicon.svg" />
+        <link rel="shortcut icon" href="/favicons/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+        <meta name="apple-mobile-web-app-title" content="Michael Kierspe | Web Developer" />
+        <link rel="manifest" href="/favicons/site.webmanifest" />
     </head>
     <body class="bg-gray-900 font-sans leading-normal text-white antialiased scroll-smooth box-border text-pretty">
         @include('layout.header')
