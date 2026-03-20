@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Michael Kierspe | Web Developer</title>
+        <meta name="description" content="I'm Michael Kierspe, a Developer specializing in responsive, accessible, and scalable web solutions.">
         @vite(['resources/css/site.css', 'resources/js/site.js'])
         @livewireStyles
         <link rel="preconnect" href="https://fonts.googleapis.com">
