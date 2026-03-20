@@ -5,7 +5,7 @@ title: Home
 template: default
 author: 1a7feb4e-4711-4cef-8dac-f83e65a631bb
 updated_by: 1a7feb4e-4711-4cef-8dac-f83e65a631bb
-updated_at: 1773265480
+updated_at: 1774038121
 page_content:
   -
     type: set
@@ -13,8 +13,8 @@ page_content:
       id: migbpsip
       values:
         type: home_hero
-        heading: 'Lorem ipsum dolor sit amet'
-        text_area: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium praesentium, reiciendis nulla aliquam nemo odio!'
+        heading: 'Building High-Performance Web Experiences'
+        text_area: "I'm Michael Kierspe, a Developer specializing in responsive, accessible, and scalable web solutions."
         image: infomedia4189.jpg
   -
     type: set
@@ -23,7 +23,7 @@ page_content:
       values:
         type: fifty_fifty
         image: 567a0274.jpg
-        content: '<h2>Lorem Ipsum</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quam sed odit ducimus quas a, minus consectetur inventore fugit! Aperiam maxime cumque iusto at delectus fugiat, ipsam assumenda iure dolorum totam repellendus numquam omnis ducimus excepturi autem nulla quae necessitatibus.</p>'
+        content: '<h2>About Me</h2><p>I&#039;m a web developer dedicated to building high-performance websites that attract, engage, and convert. My background in SEO and digital marketing gives me a strategic edge, ensuring that every line of code serves a larger business goal.</p><p>As a self-taught developer, I thrive on the challenge of learning new technologies. I am confident in my ability to adapt to any stack or toolset to create clean, semantic, and accessible digital solutions that solve real-world problems.</p>'
         section_id: about-me
   -
     type: set
@@ -32,7 +32,7 @@ page_content:
       values:
         type: portfolio_grid
         heading: Portfolio
-        textarea: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus consectetur itaque esse blanditiis quos asperiores facere quam inventore ipsa cumque delectus similique corporis accusamus expedita porro, natus ea? Cupiditate, amet.'
+        textarea: 'Below are just a few of the projects I’ve worked on. In my current role and throughout my career, I’ve collaborated with teams to turn complex requirements into intuitive digital experiences for clients across the medical, government, and industrial sectors.'
         section_id: portfolio
   -
     type: set
@@ -94,7 +94,47 @@ page_content:
               -
                 id: migj7brx
                 devicon_class: devicon-sqlite-plain-wordmark
+              -
+                id: mmzcd9k7
+                devicon_class: devicon-woocommerce-plain
+              -
+                id: mmzcdptk
+                devicon_class: devicon-vitejs-plain
+              -
+                id: mmzch02n
+                devicon_class: devicon-apache-plain-wordmark
+          -
+            id: mmzc379k
+            group_label: Tools
+            icons:
+              -
+                id: mmzc3bjo
+                devicon_class: devicon-vscode-plain
+              -
+                id: mmzc4k3x
+                devicon_class: devicon-postman-plain
+              -
+                id: mmzc7pj5
+                devicon_class: devicon-npm-original-wordmark
+              -
+                id: mmzc8e7x
+                devicon_class: devicon-linux-plain
+              -
+                id: mmzc9pp9
+                devicon_class: devicon-git-plain
+              -
+                id: mmzca642
+                devicon_class: devicon-filezilla-plain
+              -
+                id: mmzcb01g
+                devicon_class: devicon-cpanel-original
+              -
+                id: mmzcb8gm
+                devicon_class: devicon-composer-line
+              -
+                id: mmzcbzm4
+                devicon_class: devicon-cloudflare-plain
         heading: 'My Skillset'
-        textarea: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus consectetur itaque esse blanditiis quos asperiores facere quam inventore ipsa cumque delectus similique corporis accusamus expedita porro, natus ea? Cupiditate, amet.'
+        textarea: 'I am committed to using modern, industry-standard tools to build fast and accessible web solutions. My focus is on writing clean, semantic code and leveraging the right frameworks to ensure a seamless experience.'
         section_id: skillset
 ---

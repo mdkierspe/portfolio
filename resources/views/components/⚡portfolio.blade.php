@@ -45,12 +45,9 @@ new class extends Component
             @foreach ($this->portfolioItems as $portfolioItem )
                 <article wire:key="{{ $portfolioItem->id }}">
                     @if ($portfolioItem->screenshot->is_image)
-                        <img src="{{ $portfolioItem->screenshot }}" alt="">
+                        <img class="aspect-video object-cover rounded-lg" src="{{ $portfolioItem->screenshot }}" alt="">
                     @else
-                        <video src="{{ $portfolioItem->screenshot }}" poster="{{ $portfolioItem->poster_image->url }}" class="aspect-video object-cover rounded-lg" onmouseover="this.play()" onmouseout="this.pause()" loop muted playsline></video>
-                        @push('preload')
-                            <link rel="preload" href="{{ $portfolioItem->screenshot }}">
-                        @endpush
+                        <video src="{{ $portfolioItem->screenshot }}" poster="{{ $portfolioItem->poster_image->url }}" class="aspect-video object-cover rounded-lg" onmouseover="this.play()" onmouseout="this.pause()" preload="auto" loop muted playsline></video>
                     @endif
                     <h3 class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600 dark:text-white dark:group-hover:text-gray-300">{{ $portfolioItem->title }}</h3>
                 </article>

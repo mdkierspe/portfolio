@@ -10,7 +10,7 @@
             <h1 class="">{{ $heading }}</h1>
             <p class="text-gray-400">{{ $text_area }}</p>
             <div class="mt-10 flex items-center gap-x-6">
-              <a href="#" class="primary-button">Get started</a>
+              <a href="#portfolio" class="primary-button">See My Work</a>
               {{-- <a href="#" class="text-sm/6 font-semibold">Learn more</a> --}}
             </div>
           </div>
