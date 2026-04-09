@@ -49,7 +49,13 @@ new class extends Component
                     @else
                         <video src="{{ $portfolioItem->screenshot }}" poster="{{ $portfolioItem->poster_image->url }}" class="aspect-video object-cover rounded-lg" onmouseover="this.play()" onmouseout="this.pause()" preload="auto" loop muted playsline></video>
                     @endif
-                    <h3 class="mt-3 text-lg/6 font-semibold text-white group-hover:text-gray-300">{{ $portfolioItem->title }}</h3>
+                    @if ($portfolioItem->site_url)
+                        <a target="_blank" href="{{ $portfolioItem->site_url }}">
+                            <h3 class="mt-3 text-lg/6 font-semibold text-white hover:text-sky-500">{{ $portfolioItem->title }}</h3>
+                        </a>
+                    @else
+                        <h3 class="mt-3 text-lg/6 font-semibold text-white hover:text-sky-500">{{ $portfolioItem->title }}</h3>
+                    @endif                    
                 </article>
             @endforeach
         </div>
