@@ -5,13 +5,13 @@
                 <h2>{{ $heading }}</h2>
             @endif
             @if($textarea)
-                <p>{{ $textarea }}</p>
+                <p class="text-gray-400">{{ $textarea }}</p>
             @endif
         </div>
 
         <div class="flex items-center justify-center gap-5">
             @foreach ($icon_groups as $icon_group )
-                <h3 :class="activeGroup === '{{ $icon_group->group_label }}' ? 'underline cursor-pointer' : 'cursor-pointer'"  x-on:click="activeGroup = '{{ $icon_group->group_label }}'">{{ $icon_group->group_label }}</h3>
+                <h3 :class="activeGroup === '{{ $icon_group->group_label }}' ? 'text-sky-500 cursor-pointer' : 'cursor-pointer'"  x-on:click="activeGroup = '{{ $icon_group->group_label }}'">{{ $icon_group->group_label }}</h3>
             @endforeach
         </div>
         @foreach ($icon_groups as $icon_group )
@@ -19,7 +19,7 @@
             <div x-show="activeGroup === '{{ $icon_group->group_label }}'" {{ !$loop->first ? 'x-cloak' : '' }} class="">
                 <div class="-mx-6 grid grid-cols-1 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-3">
                     @foreach ($icon_group->icons as $icon )
-                        <div class="bg-gray-400/5 p-8 sm:p-10 dark:bg-white/5 text-center *:text-8xl">
+                        <div class="p-8 sm:p-10 bg-white/5 text-center *:text-8xl">
                             <i class="{{ $icon->devicon_class }}"></i>
                         </div>
                     @endforeach                

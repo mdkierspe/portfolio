@@ -2,7 +2,7 @@
     <ul class="flex items-center gap-x-5">
         <s:nav:main_nav select="title|url">
             <li>
-                <a href="{{ $url }}" class="">{{ $title }}</a>
+                <a href="{{ $url }}" class="hover:text-sky-500">{{ $title }}</a>
             </li>
         </s:nav:main_nav>
     </ul>

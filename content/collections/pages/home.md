@@ -5,7 +5,7 @@ title: Home
 template: default
 author: 1a7feb4e-4711-4cef-8dac-f83e65a631bb
 updated_by: 1a7feb4e-4711-4cef-8dac-f83e65a631bb
-updated_at: 1774038121
+updated_at: 1775755550
 page_content:
   -
     type: set
@@ -13,7 +13,7 @@ page_content:
       id: migbpsip
       values:
         type: home_hero
-        heading: 'Building High-Performance Web Experiences'
+        heading: 'Building <span>High-Performance</span> Web Experiences'
         text_area: "I'm Michael Kierspe, a Developer specializing in responsive, accessible, and scalable web solutions."
         image: infomedia4189.jpg
   -

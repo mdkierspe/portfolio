@@ -59,6 +59,10 @@
             ),
             calc(var(--max-font) * 1px)
         );
+
+        span {
+            @apply text-sky-500;
+        }
     }
     h2 {
         --min-font: var(--h2-small);
@@ -228,3 +232,7 @@
     @apply mx-auto max-w-screen-xl px-5;
 }
 [x-cloak] { display: none !important; }
+
+.fifty-fifty-text p {
+    @apply text-gray-400;
+}
